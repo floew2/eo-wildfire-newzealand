@@ -38,6 +38,7 @@ Overview of the most important files and data present in the root directory:
 
 -   Folders:
     -   `results`: Contains the analysis result for the Lake Ohau wildfire in New Zealand.
+    -   `images`: Contains screenshots, figures, plots etc.
 -   Files:
     -   `datasheet.md` : Description of the input data.
     -   `burn_severity_mapping.js`: Main workflow for the NBR analysis.
@@ -50,6 +51,9 @@ The project repository has the following structure:
     ├── cloud_masking.js    --------> Functions for BRDF corrections and cloud masking 
     ├── results
     │   └── dNBR.tif   ------> NBR analysis result (burn severity mapping) in *.tif format
+    ├── images
+    │   └── NBR_LakeOhau_postfire.png   ------> Screenshot of burn severity map
+    │   └── Sentinel-2_LakeOhau_prefire.png   ------> Screenshot of pre-fire Sentinel-2 image (true colors)
     ├── README.md
 
 ## Usage
