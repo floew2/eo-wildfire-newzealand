@@ -273,9 +273,6 @@ for (var i = 0; i < 8; i++) {
 // add legend to map (alternatively you can also print the legend to the console)
 Map.add(legend);
 
-//==========================================================================================
-//                                  PREPARE FILE EXPORT
-
 var id = dNBR.id().getInfo();
       
 Export.image.toDrive({image: dNBR, scale: 10, description: id, fileNamePrefix: 'dNBR',
