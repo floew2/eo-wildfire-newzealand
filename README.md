@@ -6,6 +6,8 @@ Project to map wildfire with Sentinel-2 and Landsat-8 images in New Zealand.
 
 This repository contains code written in Google Earth Engine (GEE) for analyzing Sentinel-2 and Landsat-8 satellite images to map burn severity using the Normalized Burn Ratio (NBR). The purpose of this code is to assess the wildfire that occurred at Lake Ohau in New Zealand, which started on 4th October 2020 and lasted for approximately 9 days.
 
+Check out my ESRI [StoryMap](https://storymaps.arcgis.com/collections/2f0f0c361b8148a28febec7cba214185?item=1) about this event.
+
 ## Workflow Overview
 
 The workflow follows the following steps:
